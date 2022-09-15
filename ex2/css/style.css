@@ -106,7 +106,7 @@ a#home {
 .flags {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
+    grid-gap: 1.5em;
     margin-top: 1em;
 }
 
@@ -161,7 +161,8 @@ footer > .footer {
     margin-top: 2em;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: rgb(165, 165, 165);
+    background-color: #e1e1e1;
+    justify-content: space-around;
 }
 
 footer > .footer > p {
